@@ -57,14 +57,14 @@ jobs:
 
       # Verify the skills member function is present.
       - name: Check package for axios version 0.21.2
-        uses: skills/action-check-file@v1
+        uses: .github/actions/action-check-file-v1
         with:
           file: "member.js"
           search: "skillsMember"
 
       # In README.md, switch step 3 for step 4.
       - name: Update to step 4
-        uses: skills/action-update-step@v2
+        uses: .github/actions/action-update-step-v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 3
