@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - id: get_step
         run: echo "current_step=$(cat ./.github/steps/-step.txt)" >> $GITHUB_OUTPUT
     outputs:
@@ -51,20 +51,20 @@ jobs:
     steps:
       # We'll need to check out the repository so that we can edit the README.
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Let's get all the branches.
 
       # Verify the skills member function is present.
       - name: Check package for axios version 0.21.2
-        uses: .github/actions/action-check-file-v1
+        uses: ./.github/actions/action-check-file-v1
         with:
           file: "member.js"
           search: "skillsMember"
 
       # In README.md, switch step 3 for step 4.
       - name: Update to step 4
-        uses: .github/actions/action-update-step-v2
+        uses: ./.github/actions/action-update-step-v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 3
