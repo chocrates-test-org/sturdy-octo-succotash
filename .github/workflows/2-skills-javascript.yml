@@ -43,7 +43,7 @@ jobs:
     # 1. This repository isn't the template repository.
     # Reference: https://docs.github.com/en/actions/learn-github-actions/contexts
     # Reference: https://docs.github.com/en/actions/learn-github-actions/expressions
-    if: ${{ !github.event.repository.is_template && needs.get_current_step.outputs.current_step == 2 }}
+    if: ${{ !github.event.repository.is_template && needs.get_current_step.outputs.current_step == 1 }}
 
     # We'll run Ubuntu for performance instead of Mac or Windows.
     runs-on: ubuntu-latest
@@ -63,7 +63,7 @@ jobs:
           search: "function calculateNumbers"
 
       # In README.md, switch step 2 for step 3.
-      - name: Update to step 3
+      - name: Update to step 2
         uses: ./.github/actions/action-update-step-v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
