@@ -11,7 +11,6 @@ _Congratulations friend, you've completed this course!_
 
 Here's a recap of all the tasks you completed:
 
-- Set up Copilot inside a Codespace.
 - Use Copilot to accept suggested code.
 - Use Copilot's hub for alternate suggestions.
 - Leverage comments to have Copilot auto-suggest code.
