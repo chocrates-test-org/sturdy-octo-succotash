@@ -6,7 +6,9 @@
 
 ## Step 1: Seeing AI code suggestions in a Javascript file!
 
-_Nice work! :tada: You created a Codespace using a devcontainer file that installed Copilot!_
+# Pre-Requisites
+Before following the steps below, please anble CoPilot in your editor and clone this repository locally
+Instructions for enabling CoPilot can be found in this [document](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=vscode)
 
 GitHub Copilot provides suggestions for numerous languages and a wide variety of frameworks, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. The following samples are in JavaScript, but other languages will work similarly.
 
@@ -14,11 +16,7 @@ Let's try this out utilizing Javascript for Copilot.
 
 ### :keyboard: Activity: Add a Javascript file and start writing code
 
-1. From inside the codespace in the VS Code explorer window, create a new file.
-
-> **Note**:
-> If you closed the Codespace from above, please open it back up or create a new Codespace.
-
+1. From inside the editor in the VS Code explorer window, create a new file.
 2. Name the file `skills.js`
 3. Verify your new file looks like:
    ![Screen Shot 2023-03-09 at 9 21 34 AM](https://user-images.githubusercontent.com/26442605/224105906-d1beb531-b747-4c7a-85ba-a12526488422.png)
@@ -33,7 +31,7 @@ Let's try this out utilizing Javascript for Copilot.
 
 5. Press `Tab` to accept the suggestion.
 
-### :keyboard: Activity: Push code to your repository from the codespace
+### :keyboard: Activity: Push code to your repository from the editor
 
 1. Use the VS Code terminal to add the `skills.js` file to the repository:
 
