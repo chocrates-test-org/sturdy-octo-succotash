@@ -10,7 +10,7 @@ _Nice work! You just used AI code suggestions within a Javascript file by using 
 
 Keep in mind that as you continue to use copilot, you may not want some of the suggestions GitHub Copilot offers. GitHub Copilot will show you multiple suggestions in a new tab.
 
-### :keyboard: Activity: Pull the latest code to the Codespace repo.
+### :keyboard: Activity: Pull the latest code to the editor.
 
 > **Note**
 > Pull MUST be done prior to the next activity.
@@ -23,7 +23,7 @@ Keep in mind that as you continue to use copilot, you may not want some of the s
 
 ### :keyboard: Activity: Add another Javascript method and view all suggestions
 
-1. From inside the codespace in the VS Code explorer window, create a new file. Note: If you closed the Codespace from above please open it back up or create a new Codespace.
+1. From inside the edtior in the VS Code explorer window, create a new file.
 2. Name the file `member.js`
 3. In the `member.js` file, type the following function header.
    ```
@@ -35,7 +35,7 @@ Keep in mind that as you continue to use copilot, you may not want some of the s
 6. Find a solution you like and click `Accept Solution`.
 7. Your `member.js` file will be updated with your solution.
 
-### :keyboard: Activity: Push code to your repository from the codespace
+### :keyboard: Activity: Push code to your repository from the editor
 
 1. Use the VS Code terminal to add the `member.js` file to the repository:
 
