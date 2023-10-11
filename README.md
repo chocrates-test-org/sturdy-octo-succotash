@@ -4,11 +4,11 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 1: Seeing AI code suggestions in a Javascript file!
-
-# Pre-Requisites
+## Pre-Requisites
 Before following the steps below, please anble CoPilot in your editor and clone this repository locally
 Instructions for enabling CoPilot can be found in this [document](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=vscode)
+
+## Step 1: Seeing AI code suggestions in a Javascript file!
 
 GitHub Copilot provides suggestions for numerous languages and a wide variety of frameworks, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. The following samples are in JavaScript, but other languages will work similarly.
 
