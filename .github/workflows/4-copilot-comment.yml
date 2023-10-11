@@ -67,5 +67,5 @@ jobs:
         uses: ./.github/actions/action-update-step-v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 4
+          from_step: 3
           to_step: X
