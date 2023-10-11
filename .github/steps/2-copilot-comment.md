@@ -4,7 +4,7 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 2: Using comments to generate code with Copilot
+## Step 3: Using comments to generate code with Copilot
 
 _Nicely done utilizing the Copilot tab!_ :partying_face:
 
