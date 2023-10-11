@@ -12,7 +12,7 @@ You now have leveraged the Copilot quick tab auto-suggest as well as the Copilot
 
 Now lets see how you can leverage comments to generate Copilot suggestions!
 
-### :keyboard: Activity: Pull the latest code to the Codespace repo.
+### :keyboard: Activity: Pull the latest code to the editor repo.
 
 > **Note**
 > Pull MUST be done prior to the next activity.
@@ -25,7 +25,7 @@ Now lets see how you can leverage comments to generate Copilot suggestions!
 
 ### :keyboard: Activity: Generate Copilot suggested code from comments.
 
-1. From inside the codespace in the VS Code explorer window, create a new file. (If you closed the Codespace from above, please open it back up or create a new Codespace.)
+1. From inside the editor in the VS Code explorer window, create a new file.
 2. Name the file `comments.js`.
 3. Type the following comment into the file:
    ```
@@ -43,7 +43,7 @@ Now lets see how you can leverage comments to generate Copilot suggestions!
 8. Find a solution you like and click `Accept Solution`.
 9. Your `comments.js` file will be updated with your solution.
 
-### :keyboard: Activity: Push code to your repository from the codespace
+### :keyboard: Activity: Push code to your repository from the editor
 
 1. Use the VS Code terminal to add the `comments.js` file to the repository:
 
